@@ -4,7 +4,7 @@ Bienvenido a mi portafolio personal construido con Astro y TailwindCSS. Este sit
 
 ## Enlace del Sitio
 
-Puedes ver el portafolio en vivo en: [celsofranciscano.pages.dev](https://celsofranciscano.pages.dev)
+Puedes ver el portafolio en vivo en: [celsofranciscano.pages.dev](https://celso.pages.dev)
 
 ## Tecnologías Utilizadas
 
@@ -16,6 +16,6 @@ Puedes ver el portafolio en vivo en: [celsofranciscano.pages.dev](https://celsof
 ### Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/celsofranciscano/portfolio-celso-franciscano.git
 cd tu-repositorio
 ```

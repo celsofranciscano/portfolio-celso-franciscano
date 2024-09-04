@@ -22,20 +22,29 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     <div id="shadow" class="bg-gray-500 rounded-full fixed opacity-30 top-64">
     </div>
     <div
-      id="shadowFile"
-      class="bg-gray-500 rounded-full absolute opacity-40 top-96 md:top-80 md:right-80 right-56"
+    id="shadowFile"
+    class="bg-gray-500 rounded-full absolute opacity-40 top-96 md:top-80 md:right-80 right-56"
     >
+  </div>
+  <div
+  id="shadowFile"
+  class="bg-gray-500 fixed rounded-full opacity-40 bottom-0 right-0"
+  >
+</div>
+<main class="p-6 py-16 md:pt-36 md:px-40">
+  <div class="grid md:grid-cols-2 md:gap-10">
+    <div class="md:order-2 py-4">
+      <img
+        class="m-auto w-[70%]  md:w-80"
+        style="mask-image: linear-gradient(black 80%, transparent);"
+        src="/celso.png"
+        alt=""
+      />
     </div>
-    <div
-      id="shadowFile"
-      class="bg-gray-500 fixed rounded-full opacity-40 bottom-0 right-0"
-    >
-    </div>
-    <main class="p-6 py-16 md:pt-40 md:px-40">
-      <div class="grid md:grid-cols-2 md:gap-10">
-        <div class="">
-          <p class="py-4 text-blue-500">Full Stack Web Developer</p>
-          <h1 class="py-4 font-bold text-6xl text-white">
+  
+    <div class="">
+          <p class="py-4 text-blue-300 text-center md:text-start">Full Stack Web Developer</p>
+          <h1 class="py-4 font-bold text-4xl md:text-6xl text-white text-center md:text-start">
             ¡Hola! soy
             <span
               class="bg-gradient-to-r from-pink-500 to-blue-800 bg-clip-text text-transparent"
@@ -43,7 +52,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
               Celso Franciscano</span
             >
           </h1>
-          <p class="py-4 text-justify">
+          <p class="py-4 text-justify hidden md:block">
             Transformo ideas en aplicaciones web funcionales y atractivas,
             dominando tanto el front-end como el back-end para entregar
             soluciones robustas y escalables.
@@ -89,19 +98,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
             Contactame !
           </button> -->
         </div>
-        <div>
-          <img
-            class="m-auto w-36 md:w-80"
-            style="mask-image: linear-gradient(black 80%, transparent);"
-            src="/celso.png"
-            alt=""
-          />
-        </div>
       </div>
 
       <section
         class="mb-8 rounded-md flex justify-center items-center gap-8 p-4"
       >
+      <a target="_blank" href="https://www.linkedin.com/in/celso-franciscano-ab58ba240/">
+
         <svg
           class="w-9 h-9 text-gray-800 dark:text-white"
           aria-hidden="true"
@@ -117,23 +120,26 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
             clip-rule="evenodd"></path>
           <path d="M7.2 8.809H4V19.5h3.2V8.809Z"></path>
         </svg>
-        <svg
-          class="w-8 h-8 text-gray-800 dark:text-white"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <path
-            fill="currentColor"
-            fill-rule="evenodd"
-            d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
-            clip-rule="evenodd"></path>
-        </svg>
+      </a>
+        <a target="_blank" href="https://www.instagram.com/celsofranciscano/">
+          <svg
+            class="w-8 h-8 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </a>
 
-        <a href="https://github.com/withastro/astro" target="_blank">
+        <a href="https://github.com/celsofranciscano" target="_blank">
           <svg
             class="w-6 h-6 text-gray-800 dark:text-white"
             viewBox="0 0 16 16"
@@ -148,7 +154,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         </a>
       </section>
 
-      <section class="grid gap-8">
+      <section id="proyectos" class="grid gap-8">
         <h1 class="text-white font-medium text-2xl text-center">
           Mis proyectos
         </h1>
@@ -156,7 +162,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         <section class="bg-gray-900 grid md:grid-cols-2 rounded-md">
           <img src="/proyectos/english.png" class="rounded-l-md" alt="" />
           <div class="flex flex-col gap-4 p-4">
-            <a
+            <a target="_blank"
               href="https://english-git-main-flaencys-projects.vercel.app/"
               class="flex justify-between items-center text-white hover:text-blue-300"
             >
@@ -296,7 +302,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         <section class="bg-gray-900 grid md:grid-cols-2 rounded-md">
           <img src="/proyectos/english.png" class="rounded-l-md" alt="" />
           <div class="flex flex-col gap-4 p-4">
-            <a
+            <a target="_blank"
               href="https://english-git-main-flaencys-projects.vercel.app/"
               class="flex justify-between items-center text-white hover:text-blue-300"
             >
@@ -434,6 +440,33 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
           </div>
         </section>
       </section>
+            <!-- Sección Sobre mí -->
+            <section id="sobre-mi" class="my-16">
+              <h2 class="text-white font-medium text-2xl text-center">Sobre mí</h2>
+              <p class="text-gray-500 text-justify mt-4">
+                Soy Celso Franciscano, un desarrollador web full stack con pasión por
+                transformar ideas en aplicaciones web robustas y escalables. Con experiencia
+                en el desarrollo tanto del front-end como del back-end, estoy comprometido
+                en crear soluciones que no solo cumplan con las expectativas, sino que las superen.
+              </p>
+            </section>
+      
+            <!-- Sección Contacto -->
+            <section id="contacto" class="my-16">
+              <h2 class="text-white font-medium text-2xl text-center">Contacto</h2>
+              <p class="text-center text-gray-500 mt-4">
+                Si estás interesado en trabajar conmigo o tienes alguna pregunta, no dudes en contactarme.
+              </p>
+              <div class="flex justify-center mt-4">
+                <a
+                  href="mailto:celsofranciscano00@gmail.com"
+                  class="px-8 py-2 bg-blue-600 text-white font-semibold hover:bg-blue-700 rounded-md"
+                >
+                  Enviar Email
+                </a>
+              </div>
+            </section>
+      
 
       <!-- <a
         class="flex px-4 py-1 border rounded-full border-gray-400 hover:bg-gray-800"
